@@ -39,7 +39,7 @@ import prophet as pt
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title('nifty 50 Stock Forecast Dashboard')
+st.title('Nifty 50 Stock Forecast Dashboard')
 
 stocks =  (
     "ASIANPAINT.NS",
